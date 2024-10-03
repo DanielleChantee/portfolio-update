@@ -1,0 +1,26 @@
+header {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo,
+.contact-links {
+  padding: 20px;
+  margin: 0 20px;
+}
+.contact-link-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
